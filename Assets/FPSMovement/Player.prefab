@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 6717577699922942792}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,6 +281,7 @@ MonoBehaviour:
   accelerationRate: 30
   decelerationRate: 30
   dragCoefficient: 0.75
+  groundSnapDistance: 0.5
   jumpForce: 5
   canMoveInAir: 0
   lookSensitivity: 0.4
